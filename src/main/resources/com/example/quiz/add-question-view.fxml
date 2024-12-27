@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="571.0" prefWidth="594.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.AddQuestionController">
+  <children>
+  <VBox prefHeight="571.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+  <Label text="Question Details" />
+  <HBox>
+    <Label text="Enonce:" />
+    <TextField fx:id="enonceTextField" prefHeight="26.0" prefWidth="449.0" />
+  </HBox>
+    <HBox>
+      <Label text="Reponse:" />
+      <TextField fx:id="reponseTextField" prefHeight="26.0" prefWidth="442.0" />
+      <Button onAction="#addReponseToList" prefHeight="26.0" prefWidth="82.0" text="Add">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Button>
+    </HBox>
+  <ListView fx:id="reponseListView" onMouseClicked="#addCorrectResponse" prefHeight="400.0" prefWidth="35.0" />
+  <HBox>
+    <Label text="Choix Corrects:" />
+            <Label fx:id="choixCorrectsLabel" text="">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+  </HBox>
+  <HBox>
+    <ComboBox fx:id="coursNomsField" layoutX="386.0" layoutY="248.0" prefHeight="25.0" prefWidth="183.0" promptText="Cours Nom" AnchorPane.leftAnchor="386.0" />
+  </HBox>
+    <ComboBox fx:id="difficulteField" layoutX="386.0" layoutY="248.0" prefHeight="25.0" prefWidth="183.0" promptText="Difficulte" AnchorPane.leftAnchor="386.0" />
+         <HBox>
+            <children>
+             <Button onAction="#ok" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: D1E4F9;" text="OK" />
+             <Button onAction="#cancel" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: F2F2F2;" text="Cancel" />
+            </children>
+         </HBox>
+  </VBox>
+    </children>
+</AnchorPane>

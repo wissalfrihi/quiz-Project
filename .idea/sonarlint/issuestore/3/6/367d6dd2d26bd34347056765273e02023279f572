@@ -1,0 +1,14 @@
+
+r
+java:S3740%"/Provide the parametrized type for this generic.(‚ÿê¢8ù±ıÛğ1J$fdbfd003-20ad-4dc1-babc-501ca66058e3
+r
+java:S3740("/Provide the parametrized type for this generic.(Òñ´8ù±ıÛğ1J$f8202af5-e169-4025-8886-67aed8dd560c
+Ä
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã–ºÅ8š²ıÛğ1J$802d5c92-ad2e-429f-829b-29393b919625
+n	java:S106ƒ"+Replace this use of System.out by a logger.(®İëÍ8¤²ıÛğ1J$fcdc2cd4-19d2-4ac3-9176-866e2e99800f
+
+java:S1128"9Remove this unused import 'com.example.quiz.model.Group'.(õüªøşÿÿÿÿ8¦²ıÛğ1J$0e4f6792-9162-4ef6-bb14-a7a3b9657616
+‹
+java:S1128"CRemove this unused import 'com.example.quiz.repositories.GroupDAO'.(Ì½ùÿÿÿÿ8¦²ıÛğ1J$00089b83-669d-434a-9f3a-0b38d08c2293
+|
+java:S1068,"4Remove this unused "questionToUpdate" private field.(»‚³ˆøÿÿÿÿ8¦²ıÛğ1J$a52b2191-b402-4d2a-b919-a3f34d955353

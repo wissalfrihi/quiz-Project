@@ -1,0 +1,7 @@
+
+›	java:S116"YRename this field "AllnbQuestions" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªή”8€τ‡ªρ1J$ee165bb6-adc3-4157-a697-54823e079293
+
+java:S1450"ZRemove the "nbQuestions" field and declare it as a local variable in the relevant methods.(‹Γ18τ‡ªρ1J$d3b34c1e-953f-41f1-b154-b33c974c5f8b
+—
+java:S1450
+"TRemove the "score" field and declare it as a local variable in the relevant methods.(‘Οθη8τ‡ªρ1J$f6efeb5a-115d-4eb7-8d39-fce76e8b89c9

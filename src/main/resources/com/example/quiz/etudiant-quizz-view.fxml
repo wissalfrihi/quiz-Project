@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="602.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.EtudiantQuizzController">
+  <children>
+    <Label layoutX="38.0" layoutY="39.0" prefHeight="35.0" prefWidth="189.0" text="Votre Quizz List" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="39.0">
+      <font>
+        <Font name="System Bold" size="24.0" />
+      </font>
+    </Label>
+    <ListView fx:id="quizzs" layoutX="38.0" layoutY="93.0" onMouseClicked="#onItemClicked" prefHeight="458.0" prefWidth="661.0" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="93.0" />
+    <Separator layoutX="38.0" layoutY="77.0" prefHeight="6.0" prefWidth="660.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="77.0" />
+    <Button fx:id="passerQuizzButton" layoutX="470.0" layoutY="13.0" onAction="#passerQuizz" prefHeight="52.0" prefWidth="174.0" style="-fx-background-color: #00008B; -fx-background-radius: 10px;" text="Passer Quizz" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>

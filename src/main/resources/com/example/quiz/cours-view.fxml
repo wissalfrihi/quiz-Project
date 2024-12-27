@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="602.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.CoursController">
+  <children>
+    <Label layoutX="38.0" layoutY="39.0" prefHeight="35.0" prefWidth="116.0" text="Cours List" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="39.0">
+      <font>
+        <Font name="System Bold" size="24.0" />
+      </font>
+    </Label>
+    <Button layoutX="654.0" layoutY="14.0" onAction="#AddnewCours" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: #00008B; -fx-background-radius: 10px;" text="+" textFill="WHITE" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="14.0">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Button>
+    <ListView fx:id="coursList" layoutX="38.0" layoutY="93.0" onMouseClicked="#onItemClicked" prefHeight="458.0" prefWidth="661.0" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="93.0" />
+    <Separator layoutX="38.0" layoutY="77.0" prefHeight="6.0" prefWidth="660.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="77.0" />
+    <Button fx:id="deleteButton" layoutX="534.0" layoutY="13.0" onAction="#onDelete" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: red; -fx-background-radius: 10px;" text="-" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Button>
+    <Button fx:id="updateButton" layoutX="464.0" layoutY="13.0" onAction="#onUpdate" prefHeight="52.0" prefWidth="59.0" style="-fx-background-color: green; -fx-background-radius: 10px;" text="/" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>

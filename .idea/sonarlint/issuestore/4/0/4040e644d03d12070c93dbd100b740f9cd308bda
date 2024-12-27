@@ -1,0 +1,9 @@
+
+†	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(ÈÙÈõÿÿÿÿÿJ$dcc7b52b-075e-4747-a54d-ae4d93a80de9
+Â
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(äÙ‹©şÿÿÿÿJ$6e322924-c7c6-438b-9e5e-0447a607ace1
+Ÿ
+java:S1845f"\Rename method "generatePDF" to prevent any misunderstanding/clash with method "generatePdf".(â–ú‡8ï‰’·ñ1J$84b53525-c1a6-434b-b6f3-fbe0c68f87d6
+	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÙÈõÿÿÿÿÿJ$77039b34-7f45-4197-8202-6a3bfae91390
+
+java:S1128"FRemove this unused import 'com.example.quiz.repositories.QuestionDAO'.(µı¥øÿÿÿÿ8“æ·ñ1J$0055b089-0fe5-46be-95ff-13f143e935f8

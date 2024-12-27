@@ -1,0 +1,7 @@
+
+	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ηφ™¶8΄ρΥπ1J$2a34d74f-9dc2-4cd9-b409-73a6b7b61fa9
+Γ
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨φ«r8ΦρΥπ1J$9cf53023-9db1-4e43-a118-494ec5c12d4f
+	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ηφ™¶8ΪρΥπ1J$c0445c67-6f89-43e2-a247-454e21a66c5d
+‹
+java:S1128"CRemove this unused import 'com.example.quiz.repositories.GroupDAO'.(Μ½ωÿÿÿÿ8πρΥπ1J$7d664727-309e-4a90-ad85-21f436271bbf
